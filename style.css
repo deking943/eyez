@@ -1,37 +1,37 @@
-body{
-  margin: 0;
+body {
   padding: 0;
-  background-color: blueviolet;
+  margin: 0;
+  background-color: brown;
 }
 
-.eyes{
+.eyes {
   position: absolute;
-  top: 40%;
-  transform: translateY(-50%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 100%;
   text-align: center;
 }
 
-.eye{
+.eye {
+  position: relative;
   width: 240px;
   height: 120px;
   background-color: white;
   display: inline-block;
-  margin: 40px;
   border-radius: 50%;
-  position: relative;
+  margin: 40px;
   overflow: hidden;
 }
 
-.ball{
-  width: 40px;
-  height: 40px;
-  background-color: black;
+.ball {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  background-color: black;
   border-radius: 50%;
   border: 15px solid gray;
-
 }
